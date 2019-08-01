@@ -1,3 +1,72 @@
-html body{
-    height:100%;
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap:100,200,300,400,500,600,700');
+
+
+html, body{
+    background-color:#fffff6;
+    font-family: "Philosopher",sans-serif;
 } 
+
+
+
+/*----------------------------------Utility */
+    
+.font-main{
+    font-family: "Philosopher",sans-serif;
+    color:#afafaf;
+}
+
+
+
+
+/*-----------------------------------Header */
+
+
+header{
+    background-color:#5555e6;
+    color:#fafafa;
+}
+
+
+
+.logo-wrapper{
+    background-color:green;
+    height: 70px;
+    
+}
+
+
+
+.nav-link{
+    color:#fafafa;
+}
+
+
+.logo{
+    background: url("camera-logo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:100%;
+}
+
+
+
+
+
+
+.wrapper{
+    height:300px;
+    width:300px;
+    background-color: #ff0000;
+}
+
+
+
+
+
+/*---------------------------------Footer */
+
+footer{
+    background-color: #ff44aa;
+    color:#fafafa;
+}
