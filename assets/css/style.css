@@ -28,25 +28,22 @@ header{
 
 
 
-.logo-wrapper{
-    background-color:green;
-    height: 70px;
-    
-}
 
 
 
 .nav-link{
     color:#fafafa;
+    text-decoration:none;
 }
 
 
 .logo{
-    background: url("camera-logo.jpg");
+    background: url("../images/camera-logo.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     height:100%;
+    width:100%;
 }
 
 
