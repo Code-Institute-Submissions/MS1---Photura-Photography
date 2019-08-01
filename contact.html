@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Photura About</title>
+    <title>Photura Contact</title>
 </head>
 
 
@@ -72,45 +72,74 @@
 
     <main>
 
-       <div class="contact-form container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8">
-                    <form>
-                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name" required>
-                        <input type="text" name="surname" id="surname" class="form-control" placeholder="Surname" required>
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
-                        <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone" required>
-                        <select class="form-control" name="serviceRequired" id="serviceRequired" required>
-                            <option></option>
-                            <option>Wedding</option>
-                            <option>Corporate</option>
-                            <option>Website</option>
-                        </select>
+                <div class="col-md-8 bg-warning">
+                    <form class="contact-form">
 
-                        <label for="eventDate">Event Date</label>
-                        <input type="date" name="eventDate" id="eventDate">
-                        <textarea class="form-control" id="msgFreeText" rows="8"></textarea>
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="surName">Surname</label>
+                            <input type="text" name="surName" id="surname" class="form-control" placeholder="Surname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone" required>
+                        </div>
+                    
+                    
+                    <!----Change this to check box -->
+                        <div class="form-group">
+                            <label for="serviceRequired">Service Required</label>
+                            <select class="form-control" name="serviceRequired" id="serviceRequired" required>
+                                <option></option>
+                                <option>Wedding</option>
+                                <option>Corporate</option>
+                            </select>
+                        </div>
+                        
+                    <!----------------           -->
+
+                        <div class="form-group">
+                            <label for="eventDate">Event Date</label>
+                            <input type="date" name="eventDate" id="eventDate">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message"></label>
+                            <textarea class="form-control" id="message" rows="8"></textarea>
+                        </div>
+
                         <input type="submit" class="form-control" value="Send">
                     </form>
                 </div>
-            </div>
-        </div>
 
-        <div class="google-map container">
-            <div class="col-md-4">
-                <!-- This code snippet taken from https://mdbootstrap.com/docs/jquery/javascript/google-maps/
+
+                <div class="col-md-4 bg-danger d-flex align-items-center justify-content-center">
+
+                    <!-- This code snippet taken from https://mdbootstrap.com/docs/jquery/javascript/google-maps/
                     with iframe embed code modified  to Irish location -->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7540.9096338871095!2d-8.465495349314104!3d51.887361471897556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1564485007310!5m2!1sen!2sie" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
 
-                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7540.9096338871095!2d-8.465495349314104!3d51.887361471897556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1564485007310!5m2!1sen!2sie" width="600" height="450" frameborder="0"
-                        style="border:0" allowfullscreen></iframe>
+
+                    <!-- End of code from https://mdbootstrap.com -->
                 </div>
 
-                <!-- End of code from https://mdbootstrap.com -->
             </div>
         </div>
 
-    </main>
     </main>
 
 
