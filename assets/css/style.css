@@ -51,10 +51,25 @@ header{
 
 
 
-.wrapper{
-    height:300px;
-    width:300px;
-    background-color: #ff0000;
+
+
+/*------------------------------------Home Page Body */
+
+
+.home-image-wrapper{
+    background:green;
+    height:auto;
+    width:90%;
+}
+
+.home-image{
+    height:100%;
+    width:100%;
+}
+
+
+.home-text{
+    width:90%;
 }
 
 
