@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap:100,200,300,400,500,600,700');
 
 
-html, body{
-    background-color:#fffff6;
-    font-family: "Philosopher",sans-serif;
-} 
+html,
+body {
+    background-color: #fffff6;
+    font-family: "Philosopher", sans-serif;
+}
 
 
 
 /*----------------------------------Utility */
-    
-.font-main{
-    font-family: "Philosopher",sans-serif;
-    color:#afafaf;
+
+.font-main {
+    font-family: "Philosopher", sans-serif;
+    color: #afafaf;
 }
 
 
@@ -20,36 +21,35 @@ html, body{
 
 /*-----------------------------------Header */
 
-
-header{
-    background-color:#5555e6;
-    color:#fafafa;
+header {
+    background-color: #5555e6;
+    color: #fafafa;
 }
 
 
 
-.logo{
+.logo {
     background: url("../images/camera-logo.png");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     background-position: center;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 
 }
 
 
 
-.nav-link{
-    color:#fafafa;
-    text-decoration:none;
+.nav-link {
+    color: #fafafa;
+    text-decoration: none;
 }
 
 
 
-.banner-wrapper{
-    width:90%;
-    height:90%;
+.banner-wrapper {
+    width: 90%;
+    height: 90%;
 }
 
 
@@ -60,92 +60,78 @@ header{
 
 /*------------------------------------Home Page Body */
 
-
-.home-image-wrapper{
-    height:auto;
-    width:90%;
+.home-image-wrapper {
+    height: auto;
+    width: 90%;
 }
 
-.home-image{
-    height:100%;
-    width:100%;
-}
-
-
-.home-text{
-    width:90%;
+.home-image {
+    height: 100%;
+    width: 100%;
 }
 
 
-/*-----------------------------------About Page Body */
-
-
-.about-image-wrapper{
-    height:auto;
-    width:90%;
-}
-
-.about-image{
-    height:100%;
-    width:100%;
+.home-text {
+    width: 90%;
 }
 
 
-.about-text{
-    width:90%;
+/*----------------------------------Service Page Body */
+
+.services-image-wrapper {
+    height: auto;
+    width: 70%;
 }
+
+
+.services-image {
+    height: auto;
+    width: 100%;
+}
+
+
 
 
 
 
 /*----------------------------------Contact Page Body */
 
-.contact-form{
+.contact-form {
     width: 70%;
-    background-color:green;
+    background-color: green;
 }
 
 
-.map-wrapper{
-    width:100%;
-    height:100%;
+.map-wrapper {
+    width: 100%;
+    height: 100%;
 }
 
 
+
+
+/*-----------------------------------About Page Body */
+
+.about-image-wrapper {
+    height: auto;
+    width: 90%;
+}
+
+.about-image {
+    height: 100%;
+    width: 100%;
+}
+
+
+.about-text {
+    width: 90%;
+}
 
 
 
 /*---------------------------------Footer */
 
-footer{
+footer {
     background-color: #ff44aa;
-    color:#fafafa;
-}
-
-
-
-
-
-
-
-
-
-/*----------------------------------------
-DEEEEEEELLLLLLLLLLLLEEEEEEEETEEEEEEEEEEEEE
-DEEEEEEELLLLLLLLLLLLEEEEEEEETEEEEEEEEEEEEE
-DEEEEEEELLLLLLLLLLLLEEEEEEEETEEEEEEEEEEEEE
-DEEEEEEELLLLLLLLLLLLEEEEEEEETEEEEEEEEEEEEE
-DEEEEEEELLLLLLLLLLLLEEEEEEEETEEEEEEEEEEEEE
-----------------------------------------*/
-
-/*-----------------------------------TEST */
-.test-box{
-    width:80%;
-    height:300px;
-    background-color:#aaa;
-}
-
-.sub-box{
-    height:100px;
-    width:100%;
+    color: #fafafa;
 }
