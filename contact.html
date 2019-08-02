@@ -80,39 +80,35 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8 bg-warning d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center">
 
                     <div class="contact-form">
                         <form>
-
-
                             <div class="form-group">
-                                <label for="firstName">First Name</label>
-                                <input class="form-control form-control-sm" type="text" name="firstName" id="firstName" placeholder="First Name" required>
+                                <label class="form-label" for="firstName">First Name</label>
+                                <input class="form-control type=" text " name="firstName " id="firstName " placeholder="First Name " required>
                             </div>
 
-                            <div class="form-group">
-                                <label for="surName">Surname</label>
-                                <input class="form-control form-control-sm" type="text" name="surName" id="surname" placeholder="Surname" required>
+                            <div class="form-group ">
+                                <label class="form-label " for="surName ">Surname</label>
+                                <input class="form-control " type="text " name="surName " id="surname " placeholder="Surname " required>
                             </div>
-                            
-                            <br>
-
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input class="form-control form-control-sm" type="email" name="email" id="email" placeholder="Email" required>
+   
+                            <div class="form-group ">
+                                <label class="form-label " for="email ">Email</label>
+                                <input class="form-control " type="email " name="email " id="email " placeholder="Email " required>
                             </div>
 
-                            <div class="form-group">
-                                <label for="phone">Phone</label>
-                                <input class="form-control form-control-sm" type="tel" name="phone" id="phone" placeholder="Phone" required>
+                            <div class="form-group ">
+                                <label class="form-label " for="phone ">Phone</label>
+                                <input class="form-control " type="tel " name="phone " id="phone " placeholder="Phone " required>
                             </div>
 
 
                             <!----Change this to check box -->
-                            <div class="form-group">
-                                <label class="d-inline" for="serviceRequired">Service Required</label>
-                                <select class="form-control form-control-sm d-inline w-50" name="serviceRequired" id="serviceRequired" required>
+                            <div class="form-group d-flex align-items-center justifycontent-between ">
+                                <label class="form-label d-inline " for="serviceRequired ">Service Required</label>
+                                <select class="form-control d-inline w-50 " name="serviceRequired " id="serviceRequired " required>
                                 <option></option>
                                 <option>Wedding</option>
                                 <option>Corporate</option>
@@ -121,37 +117,40 @@
 
                             <!----------------           -->
 
-                            <div class="form-group">
-                                <label for="eventDate">Event Date</label>
-                                <input class="form-control form-control-sm" type="date" name="eventDate" id="eventDate">
+                            <div class="form-group ">
+                                <label class="form-label " for="eventDate ">Event Date</label>
+                                <input class="form-control " type="date " name="eventDate " id="eventDate ">
                             </div>
 
-                            <div class="form-group">
-                                <label for="message"></label>
-                                <textarea class="form-control" id="message" rows="8"></textarea>
+                            <div class="form-group ">
+                                <label class="form-label " for="message "></label>
+                                <textarea class="form-control " id="message " rows="4 "></textarea>
                             </div>
-
-                            <input class="form-control" type="submit" value="Send">
-
+                            
+                            <div class="d-flex align-items-center ">
+                                <input class="btn btn-primary " type="submit " value="Send ">
+                            </div>
                         </form>
                     </div>
 
                 </div>
 
-
-                <div class="col-md-4 bg-danger d-flex align-items-center justify-content-center">
+           
+                <div class="col-md-4 bg-danger d-flex align-items-center justify-content-center ">
 
                     <!-- This code snippet taken from https://mdbootstrap.com/docs/jquery/javascript/google-maps/
                     with iframe embed code modified  to Irish location -->
-
-                    <div id="map-container-google-1" class="z-depth-1-half map-container">
-                        <iframe src="#" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    
+                    
+                    <!--
+                    <div id="map-container-google-1 " class="z-depth-1-half map-container ">
+                        <iframe src="# " frameborder="0 " style="border:0 " allowfullscreen></iframe>
                     </div>
-
-
+                    -->
+                    
                     <!-- End of code from https://mdbootstrap.com -->
                 </div>
-
+         
             </div>
         </div>
 
@@ -161,16 +160,16 @@
 
 
     <footer>
-        <div class="container-fluid pt-3">
-            <div class="row">
-                <div class="col-6 d-flex align-items-center">
-                    <p class="font-weight-lighter">Copyright &copy Photura</p>
+        <div class="container-fluid pt-3 ">
+            <div class="row ">
+                <div class="col-6 d-flex align-items-center ">
+                    <p class="font-weight-lighter ">Copyright &copy Photura</p>
                 </div>
-                <div class="col-6 d-flex justify-content-around align-items-baseline">
-                    <span class="fab fa-instagram"></span>
-                    <span class="fab fa-pinterest"></span>
-                    <span class="fab fa-youtube"></span>
-                    <span class="fab fa-facebook"></span>
+                <div class="col-6 d-flex justify-content-around align-items-baseline ">
+                    <span class="fab fa-instagram "></span>
+                    <span class="fab fa-pinterest "></span>
+                    <span class="fab fa-youtube "></span>
+                    <span class="fab fa-facebook "></span>
                 </div>
             </div>
         </div>
