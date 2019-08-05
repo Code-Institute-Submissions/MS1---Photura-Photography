@@ -7,6 +7,7 @@ body {
     font-family: "Philosopher", sans-serif;
     height:100%;
     width:100%;
+    text-align:center;
 }
 
 
@@ -19,6 +20,12 @@ body {
 }
 
 
+.img-uniform-size{
+    height:100%;
+    object-fit:contain;
+    width:100%;
+}
+
 
 
 /*-----------------------------------Header */
@@ -28,6 +35,34 @@ header {
     color: #fafafa;
     margin-bottom: 5vh;
 }
+
+
+.banner-title{
+    margin:0;
+}
+
+
+h1 {
+    font-size:1.5em;
+
+}
+
+.header-text{
+    font-size:0.15em;
+}
+
+
+@media(min-width:576px){
+    h1{
+        font-size:3em;
+    }
+    
+    .header-text{
+        font-size:0.75em;
+    }
+}
+
+
 
 
 
@@ -41,25 +76,27 @@ header {
 
 }
 
-
-
-.nav-link {
-    color: #fafafa;
-    font-size:90%;
-    text-decoration: none;
-    
+.banner-menu{
+    color: #555590;
 }
 
 
-.nav-link hover{
+.nav-link {
+    font-size:90%;
+    text-decoration: none;
+}
+
+
+.nav-link :hover{
     color:#00ff00;
 }
 
 
-
-.banner-wrapper {
-    width: 90%;
-    height: 90%;
+.menu-bars{
+    background-color: rgba(0,0,0,0);
+    border:none;
+    color:#fafafa;
+    font-size:2em;
 }
 
 
@@ -116,27 +153,40 @@ header {
 
 /*----------------------------------Contact Page Body */
 
-.contact-form {
+
+.message-heading{
+    font-size:4em;
+}
+
+
+
+.contact-form{
+    border: 0.5px solid #bbcce6;
+    border-radius:10px;
     width: 85%;
 }
 
-
-@media (min-width:992px){
+@media (min-width:768px){
     .contact-form{
-        width:50%;
+        width:70%;
     }
 }
 
-
+.form-group{
+    margin-bottom:3px;
+}
 
 .form-label{
-    font-size:0.85em;
+    
+    font-size:0.75em;
     margin-bottom:2px;
+    padding-left:0.5em;
 }
 
 .form-control{
     height:1.5em;
     margin:0;
+    padding-left:0.5em;
 }
 
 
@@ -171,31 +221,67 @@ header {
 */
 
 
-input[type="date"]{
-    font-size: 13px;
+
+.map-section{
+    border: 0.5px solid #bbcce6;
+    border-radius:10px;
 }
 
 
-
-.map-wrapper {
+.map-container {
+    background-color:blue;
+    height:50%;
     width: 100%;
 }
 
+
+.contact-map{
+    height:100%;
+    width:100%;
+}
+
+
+
+.location-arrow{
+    background:rgba(0,0,0,0);
+    color:red;
+    display:inline;
+    font-size:1.5em;
+    position:relative;
+    top:55%;
+    z-index: 2;
+}
 
 
 
 /*-----------------------------------About Page Body */
 
-.about-image-wrapper {
-    height: auto;
-    width: 90%;
-    margin-bottom: 5vh;
+
+.card{
+    width:100%;
+    padding:1em;
 }
 
-.about-image {
-    height: 100%;
-    width: 100%;
+/*
+.card-yemi{
+    position:relative;
+    right:0;
 }
+*/
+
+
+@media (min-width:768px){
+    .card{
+        width:70%;
+    }
+    
+}
+
+
+.card-image-top{
+    object-fit:contain;
+}
+
 
 
 .about-seperator{
@@ -209,5 +295,64 @@ footer {
     background-color: #ff44aa;
     color: #fafafa;
     margin-top:10vh;
-    width:100%;
+
 }
+
+
+
+
+
+
+
+/*---------------------------------------TEST
+------------------------------------------- */
+
+/*crossfade */
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+
+
+
+/* Full width image */
+.test-img-full{
+    width:100%;
+    height:auto;
+}
+
+
+.test-img-size{
+    width:100px;
+    height:auto;
+}
+
+
+
+.quote-section-one{
+    
+}
+
+.quote{
+    display:none;
+}
+
+
