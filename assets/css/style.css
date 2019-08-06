@@ -20,11 +20,58 @@ body {
 }
 
 
-.img-uniform-size {
-    height: 100%;
+.img-size-90 {
+    height: auto;
     object-fit: contain;
-    width: 100%;
+    width: 90%;
 }
+
+
+
+#cf {
+    position: relative;
+    height: 281px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#cf img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+    opacity: 0;
+}
+
+
+
+#cf2 {
+    position: relative;
+    height: 281px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#cf2 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.top:hover {
+    opacity: 0;
+}
+
+
+
 
 
 
@@ -152,22 +199,41 @@ h1 {
 
 /*------------------------------Testimonial Page Body */
 
-
-.quote{
-    height:100%;
+.quote {
+    height: 100%;
 }
 
 
-.quote-title{
-    height:20%;
+.quote-title {
+    height: 20%;
 }
+
 
 .horizontal {
     border-top: 1px solid black;
     width: 90%;
     position: absolute;
-
 }
+
+
+.quote {
+    height: 100%;
+}
+
+.quote-image-wrapper{
+    height:100%;
+}
+
+.quote-image {
+    background: url("../images/wedding-couple5.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
 
 
 
@@ -312,6 +378,7 @@ h1 {
 /*---------------------------------Footer */
 
 footer {
+
     background-color: #ff44aa;
     color: #fafafa;
     margin-top: 10vh;
@@ -328,33 +395,5 @@ footer {
 ------------------------------------------- */
 
 /*crossfade */
-
-#cf {
-    position: relative;
-    height: 281px;
-    width: 450px;
-    margin: 0 auto;
-}
-
-#cf img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-}
-
-#cf img.top:hover {
-    opacity: 0;
-}
-
-
-
-
-
-
-
-
-
+/*from http://css3.bradshawenterprises.com/cfimg/ */
 
