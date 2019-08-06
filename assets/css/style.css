@@ -5,9 +5,9 @@ html,
 body {
     background-color: #fffff6;
     font-family: "Philosopher", sans-serif;
-    height:100%;
-    width:100%;
-    text-align:center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -20,10 +20,10 @@ body {
 }
 
 
-.img-uniform-size{
-    height:100%;
-    object-fit:contain;
-    width:100%;
+.img-uniform-size {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
 }
 
 
@@ -37,28 +37,28 @@ header {
 }
 
 
-.banner-title{
-    margin:0;
+.banner-title {
+    margin: 0;
 }
 
 
 h1 {
-    font-size:1.5em;
+    font-size: 1.5em;
 
 }
 
-.header-text{
-    font-size:0.15em;
+.header-text {
+    font-size: 0.15em;
 }
 
 
-@media(min-width:576px){
-    h1{
-        font-size:3em;
+@media(min-width:576px) {
+    h1 {
+        font-size: 3em;
     }
-    
-    .header-text{
-        font-size:0.75em;
+
+    .header-text {
+        font-size: 0.75em;
     }
 }
 
@@ -76,27 +76,27 @@ h1 {
 
 }
 
-.banner-menu{
+.banner-menu {
     color: #555590;
 }
 
 
 .nav-link {
-    font-size:90%;
+    font-size: 90%;
     text-decoration: none;
 }
 
 
-.nav-link :hover{
-    color:#00ff00;
+.nav-link :hover {
+    color: #00ff00;
 }
 
 
-.menu-bars{
-    background-color: rgba(0,0,0,0);
-    border:none;
-    color:#fafafa;
-    font-size:2em;
+.menu-bars {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #fafafa;
+    font-size: 2em;
 }
 
 
@@ -124,15 +124,14 @@ h1 {
 
 /*----------------------------------Service Page Body */
 
-
-.services-row{
+.services-row {
     margin-top: 5vh;
 }
 
-@media (min-width:768px){
-    .services-row{
+@media (min-width:768px) {
+    .services-row {
         margin-top: 10vh;
-    }  
+    }
 }
 
 
@@ -151,47 +150,67 @@ h1 {
 
 
 
-/*----------------------------------Contact Page Body */
+/*------------------------------Testimonial Page Body */
 
 
-.message-heading{
-    font-size:4em;
+.quote{
+    height:100%;
+}
+
+
+.quote-title{
+    height:20%;
+}
+
+.horizontal {
+    border-top: 1px solid black;
+    width: 90%;
+    position: absolute;
+
 }
 
 
 
-.contact-form{
+/*----------------------------------Contact Page Body */
+
+.message-heading {
+    font-size: 5vw;
+}
+
+
+
+.contact-form {
     border: 0.5px solid #bbcce6;
-    border-radius:10px;
+    border-radius: 10px;
     width: 85%;
 }
 
-@media (min-width:768px){
-    .contact-form{
-        width:70%;
+@media (min-width:768px) {
+    .contact-form {
+        width: 70%;
     }
 }
 
-.form-group{
-    margin-bottom:3px;
+.form-group {
+    margin-bottom: 3px;
 }
 
-.form-label{
-    
-    font-size:0.75em;
-    margin-bottom:2px;
-    padding-left:0.5em;
+.form-label {
+
+    font-size: 0.75em;
+    margin-bottom: 2px;
+    padding-left: 0.5em;
 }
 
-.form-control{
-    height:1.5em;
-    margin:0;
-    padding-left:0.5em;
+.form-control {
+    height: 1.5em;
+    margin: 0;
+    padding-left: 0.5em;
 }
 
 
-.form-group{
-    font-family:"Arial";
+.form-group {
+    font-family: "Arial";
 }
 
 
@@ -199,56 +218,59 @@ h1 {
     https://alligator.io/css/styling-placeholder-text/
 */
 
-
 ::-webkit-input-placeholder {
-  font-size: 13px;
+    font-size: 13px;
 }
+
 ::-moz-placeholder {
 
-  font-size: 13px;
+    font-size: 13px;
 }
+
 :-ms-input-placeholder {
 
-  font-size: 13px;
+    font-size: 13px;
 }
+
 ::placeholder {
 
-  font-size: 13px;
+    font-size: 13px;
 }
 
 /*  End of code credited to
     https://alligator.io/css/styling-placeholder-text/
 */
 
-
-
-.map-section{
+.map-section {
     border: 0.5px solid #bbcce6;
-    border-radius:10px;
+    border-radius: 10px;
+    width: 80%;
 }
 
 
 .map-container {
-    background-color:blue;
-    height:50%;
+    height: 70%;
     width: 100%;
 }
 
 
-.contact-map{
-    height:100%;
-    width:100%;
+.contact-map {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 
 
-.location-arrow{
-    background:rgba(0,0,0,0);
-    color:red;
-    display:inline;
-    font-size:1.5em;
-    position:relative;
-    top:55%;
+.location-arrow {
+    background: rgba(0, 0, 0, 0);
+    color: red;
+    display: inline;
+    font-size: 1.5em;
+    position: relative;
+    top: 55%;
     z-index: 2;
 }
 
@@ -256,10 +278,9 @@ h1 {
 
 /*-----------------------------------About Page Body */
 
-
-.card{
-    width:100%;
-    padding:1em;
+.card {
+    width: 100%;
+    padding: 1em;
 }
 
 /*
@@ -269,23 +290,22 @@ h1 {
 }
 */
 
-
-@media (min-width:768px){
-    .card{
-        width:70%;
+@media (min-width:768px) {
+    .card {
+        width: 70%;
     }
-    
+
 }
 
 
-.card-image-top{
-    object-fit:contain;
+.card-image-top {
+    object-fit: contain;
 }
 
 
 
-.about-seperator{
-    margin-bottom:5vh;
+.about-seperator {
+    margin-bottom: 5vh;
 }
 
 
@@ -294,7 +314,7 @@ h1 {
 footer {
     background-color: #ff44aa;
     color: #fafafa;
-    margin-top:10vh;
+    margin-top: 10vh;
 
 }
 
@@ -310,49 +330,31 @@ footer {
 /*crossfade */
 
 #cf {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto;
 }
 
 #cf img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 #cf img.top:hover {
-  opacity:0;
+    opacity: 0;
 }
 
 
 
 
 
-/* Full width image */
-.test-img-full{
-    width:100%;
-    height:auto;
-}
-
-
-.test-img-size{
-    width:100px;
-    height:auto;
-}
 
 
 
-.quote-section-one{
-    
-}
-
-.quote{
-    display:none;
-}
 
 
