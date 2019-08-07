@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Photura About</title>
 </head>
@@ -19,54 +20,61 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-2 d-flex justify-content-center align-items-center">
-
                     <div class="logo">
                         <a href="index.html"></a>
                     </div>
                 </div>
 
-                <div class="col p-0">
-                    <div class="row m-0">
-                        <div class="col p-0 d-flex align-items-baseline">
-                            <h1 class="d-block d-md-inline mx-2">Photura</h1>
-                            <p class="d-block d-md-inline">Photography and Video</p>
+                <div class="col-10 p-0">
+                    <div class="row mx-0 mt-1">
+                        <div class="col p-0 d-flex flex-column flex-md-row align-items-baseline">
+                            <div class="mb-0">
+                                <h1>Photura</h1>
+                            </div>
+                            <div class="mb-0">
+                                <p>Photography and Video</p>
+                            </div>
                         </div>
+
                     </div>
 
+
+
                     <div class="col p-0">
-                        <div class="row no-gutters bg-warning">
-                            <navbar class="d-none col-md-8 d-md-flex justify-content-between">
-
-
-                                <!-- Code modified from Bootstrap documentation -->
-                                <ul class="nav">
-                                    <li class="nav-item d-inline">
+                        <div class="banner-menu row no-gutters bg-warning">
+                            <navbar class="col-12 col-md-8 d-md-flex">
+                                <ul class="nav d-flex justify-content-around justify-content-md-start">
+                                    <li class="nav-item d-inline hvr-grow">
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
-                                    <li class="nav-item d-inline">
-                                        <a class="nav-link" href="services.html">Service</a>
-                                    </li>
-                                    <li class="nav-item d-inline">
+                                    <li class="nav-item d-inline hvr-grow">
                                         <a class="nav-link" href="testimonials.html">Testimonials</a>
                                     </li>
-                                    <li class="nav-item d-inline">
+                                    <li class="nav-item d-inline hvr-grow">
                                         <a class="nav-link" href="contact.html">Contact</a>
                                     </li>
-                                    <li class="nav-item d-inline">
+                                    <li class="nav-item d-inline hvr-grow">
                                         <a class="nav-link" href="about.html">About</a>
                                     </li>
                                 </ul>
-                                <!-- End of code modified from Bootstrap documentation -->
 
                             </navbar>
 
 
 
                             <div class="social-links col-12 col-md-4 d-flex justify-content-around align-items-center">
+                                <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank">
                                 <span class="fab fa-instagram"></span>
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/Pinterest" target="_blank">
                                 <span class="fab fa-pinterest"></span>
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/YouTube" target="_blank">
                                 <span class="fab fa-youtube"></span>
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/Facebook" target="_blank"> 
                                 <span class="fab fa-facebook"></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -78,53 +86,43 @@
 
     <main>
 
-        <div class="container-fluid my-4">
+        <div class="container-fluid">
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="about-image-wrapper">
-                        <img src="assets/images/about-trish.jpg" class="about-image">
-                    </div>
-                </div>
-                <div class="col-md-8 d-flex align-items-center">
-                    <div class="about-text">
-                        <p>Trish McKenna was a nominee of the Press Photographer of The Year Award 2010 having worked as a freelance photographer providing material for newspapers and magazines across Ireland and England. Of a romantic spirit, Trish has
-                            a passion for wedding photography aiming to capture each special moment on every special day.</p>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <hr class="d-none d-md-block">
-
-
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="about-image-wrapper">
-                        <img src="assets/images/about-yemi.jpg" class="about-image">
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex align-items-center">
-                    <div class="about-text">
-                        <p>Yemi Abacha has 14 years experience reporting for Reuters worldwide. Deciding on a change of focus, he moved into wedding and function photography in 2010, moving to Ireland from his native UK the following year. His landscape
-                            work has been exhibited in galleries across Ireland and England to critical acclaim.</p>
-                    </div>
-                </div>
-            </div>
-            
-            
-            <hr class="d-none d-md-block">
-            
-            <div class="row">
+            <div class="row d-flex flex-column align-content-center">
                 <div class="col">
-                    <p>Trish and Yemi teamed up in 2016 after meeting in St Stephen's Green and realising they both leaped for their respective cameras laughing when they saw the duck with the crisp bag on the bandstand…</p>
+                    <div class="card about-card mb-5">
+                        <img class="card-img-top" src="assets/images/about-trish.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="about-text">
+                                <p>Trish McKenna was a nominee of the Press Photographer of The Year Award 2010 having worked as a freelance photographer providing material for newspapers and magazines across Ireland and England. Of a romantic spirit, Trish
+                                    has a passion for wedding photography aiming to capture each special moment on every special day.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+
+                    <hr class="d-none d-md-block">
+
+                    <div class="card about-card my-5">
+                        <img class="card-img-top" src="assets/images/about-yemi.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="about-text">
+                                <p>Yemi Abacha has 14 years experience reporting for Reuters worldwide. Deciding on a change of focus, he moved into wedding and function photography in 2010, moving to Ireland from his native UK the following year. His landscape
+                                    work has been exhibited in galleries across Ireland and England to critical acclaim.</p>
+                            </div>
+                        </div>
+                    </div>
+          
+     
+
+                    <hr class="d-none d-md-block">
+
+                    <div class="col-12 col-md-6 mt-5 border">
+                        <p>Trish and Yemi teamed up in 2016 after meeting in St Stephen's Green and realising they both leaped for their respective cameras laughing when they saw the duck with the crisp bag on the bandstand…</p>
+                    </div>
                 </div>
             </div>
-
-
         </div>
-
     </main>
 
 
