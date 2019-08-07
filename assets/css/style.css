@@ -84,34 +84,6 @@ header {
 }
 
 
-.banner-title {
-    margin: 0;
-}
-
-
-h1 {
-    font-size: 1.5em;
-
-}
-
-.header-text {
-    font-size: 0.15em;
-}
-
-
-@media(min-width:576px) {
-    h1 {
-        font-size: 3em;
-    }
-
-    .header-text {
-        font-size: 0.75em;
-    }
-}
-
-
-
-
 
 .logo {
     background: url("../images/camera-logo.png");
@@ -128,8 +100,36 @@ h1 {
 }
 
 
-.nav-link {
-    font-size: 90%;
+
+.banner-title {
+    margin: 0;
+}
+
+
+.menu-bars {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #fafafa;
+    font-size: 2em;
+}
+
+
+
+
+h1 {
+    font-size: 1.5em;
+
+}
+
+.header-text {
+    font-size: 0.15em;
+}
+
+
+.nav-link{
+    font-size: 80%;
+    margin: 2px 0;
+    padding:2px;
     text-decoration: none;
 }
 
@@ -139,11 +139,17 @@ h1 {
 }
 
 
-.menu-bars {
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    color: #fafafa;
-    font-size: 2em;
+
+@media(min-width:576px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .header-text {
+        font-size: 0.75em;
+    }
+    
+    
 }
 
 
@@ -168,31 +174,6 @@ h1 {
     width: 90%;
 }
 
-
-/*----------------------------------Service Page Body */
-
-.services-row {
-    margin-top: 5vh;
-}
-
-@media (min-width:768px) {
-    .services-row {
-        margin-top: 10vh;
-    }
-}
-
-
-
-.services-image-wrapper {
-    height: auto;
-    width: 70%;
-}
-
-
-.services-image {
-    height: auto;
-    width: 100%;
-}
 
 
 
