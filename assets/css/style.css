@@ -127,11 +127,13 @@ h1 {
 
 
 .nav-link{
+    color:#5555e6;
     font-size: 80%;
     margin: 2px 0;
     padding:2px;
     text-decoration: none;
 }
+
 
 
 .nav-link :hover {
@@ -367,14 +369,4 @@ footer {
 }
 
 
-
-
-
-
-
-/*---------------------------------------TEST
-------------------------------------------- */
-
-/*crossfade */
-/*from http://css3.bradshawenterprises.com/cfimg/ */
 
