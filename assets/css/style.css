@@ -221,16 +221,23 @@ h1 {
 }
 
 
+.testimonial-carousel{
+    margin:3vh 10%;
+}
+
+
 .carousel-item{
     height:auto;
-    width:200px;
+    width:80vw;
 }
 
 
-.testimonial-carousel{
-    width:100%;
-    height:auto;
+@media (min-width:768px) {
+    .carousel-item{
+        height:auto;
+        width:30vw;
 }
+
 
 .testimonial-pt{
     padding-top:3%;
@@ -378,6 +385,18 @@ h1 {
 }
 
 
+.trish-img{
+    height:25%;
+    width:25%;
+}
+
+
+.yemi-img{
+    height:50%;
+    width:50%;
+}
+
+
 
 @media (min-width:768px) {
     .card {
@@ -385,11 +404,11 @@ h1 {
     }
 }
 
-
+/*
 .card-image-top {
     object-fit: contain;
 }
-
+*/
 
 
 .about-seperator {
