@@ -282,8 +282,8 @@ h1 {
     .contact-heading{
         font-size:10vh;
     }
-    
 }
+
 
 .form-group {
     margin-bottom: 3px;
@@ -297,11 +297,15 @@ h1 {
 }
 
 .form-control {
+    background-image:radial-gradient(#ffffaa 40%, #fffff6 60%);
     height: 1.5em;
-    margin: 0;
     padding-left: 0.5em;
 }
 
+
+.date-picker{
+    font-size:80%;
+}
 
 .form-group {
     font-family: "Arial";
