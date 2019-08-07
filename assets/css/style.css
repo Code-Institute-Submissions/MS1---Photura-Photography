@@ -71,8 +71,13 @@ body {
 }
 
 
+/*Cursor pointer code - Stack Overflow
+https://stackoverflow.com/questions/47269189/bootstrap-v4-css-class-for-pointer-cursor
+*/
 
-
+.cursor-pointer {
+    cursor: pointer;
+}
 
 
 /*-----------------------------------Header */
@@ -131,12 +136,16 @@ h1 {
 }
 
 
-.nav-link {
+.header-link {
     color: #5555e6;
-    font-size: 80%;
-    margin: 2px 0;
-    padding: 2px;
+    font-size: 100%;
+    margin: 2% 0;
     text-decoration: none;
+}
+
+
+.footer-link {
+    color: #fffff6;
 }
 
 
@@ -193,9 +202,15 @@ h1 {
 
 
 .testimonial-heading {
-    background-color: #ffff78;
+    background-color: #ddffff;
     margin-top: 2%;
+    cursor: pointer;
+    transition: background-color 1s ease-in;
+}
 
+
+.testimonial-heading :hover{
+    background-color:#ffff78;
 }
 
 
@@ -527,8 +542,8 @@ h1 {
 
 
 .trish-img {
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
 }
 
 .card {
