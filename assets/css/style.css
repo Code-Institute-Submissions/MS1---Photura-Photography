@@ -182,6 +182,18 @@ h1 {
 
 /*------------------------------Testimonial Page Body */
 
+
+.section-heading{
+    font-size:10vh;
+}
+
+
+.testimonial-heading{
+    background-color:#ffff78;
+    margin-top:2%;
+}
+
+
 .quote {
     height: 100%;
 }
@@ -193,31 +205,42 @@ h1 {
 
 
 .horizontal {
-    border-top: 1px solid black;
+    border-top: 1px solid #ffffa3;
     width: 90%;
     position: absolute;
+
 }
 
 
 .quote {
-    height: 100%;
-}
-
-.quote-image-wrapper{
     height:100%;
 }
 
-.quote-image {
-    background: url("../images/wedding-couple5.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 100%;
-    width: 100%;
+.quote-image-wrapper{
+    padding: 2% 0;
 }
 
 
+.carousel-item{
+    height:auto;
+    width:200px;
+}
+
+
+.testimonial-carousel{
+    width:100%;
+    height:auto;
+}
+
+.testimonial-pt{
+    padding-top:3%;
+}
+
+
+.video-wrapper{
+    height:20vh;
+    width: auto;
+}
 
 
 /*----------------------------------Contact Page Body */
@@ -332,12 +355,9 @@ h1 {
     padding: 1em;
 }
 
-/*
-.card-yemi{
-    position:relative;
-    right:0;
-}
-*/
+
+
+
 
 @media (min-width:768px) {
     .card {
@@ -367,6 +387,3 @@ footer {
     margin-top: 10vh;
 
 }
-
-
-
