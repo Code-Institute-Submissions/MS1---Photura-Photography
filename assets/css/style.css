@@ -246,25 +246,14 @@ h1 {
 }
 
 
-.testimonial-carousel {
-    height: auto;
-    margin: 6vh 0;
-    width: 30vw;
+.testimonial-carousel{
+    height:auto;
+    width:70%;
 }
 
 
-.carousel-item {
-    height: auto;
-    width: 80vw;
-}
 
 
-@media (min-width:768px) {
-    .carousel-item {
-        height: auto;
-        width: 30vw;
-    }
-}
 
 
 .testimonial-pt {
@@ -299,16 +288,6 @@ h1 {
 }
 
 
-.carousel-item {
-    height: auto;
-    width: 200px;
-}
-
-
-.testimonial-carousel {
-    width: 100%;
-    height: auto;
-}
 
 .testimonial-pt {
     padding-top: 3%;
@@ -360,11 +339,6 @@ h1 {
     width: 85%;
 }
 
-@media (min-width:768px) {
-    .contact-form {
-        width: 80%;
-    }
-}
 
 
 
