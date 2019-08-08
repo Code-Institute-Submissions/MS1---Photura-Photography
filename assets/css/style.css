@@ -28,47 +28,6 @@ body {
 
 
 
-#cf {
-    position: relative;
-    height: 281px;
-    width: auto;
-    margin: 0 auto;
-}
-
-#cf img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-}
-
-#cf img.top:hover {
-    opacity: 0;
-}
-
-
-
-#cf2 {
-    position: relative;
-    height: 281px;
-    width: auto;
-    margin: 0 auto;
-}
-
-#cf2 img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-}
-
-#cf2 img.top:hover {
-    opacity: 0;
-}
 
 
 /*Cursor pointer code - Stack Overflow
@@ -97,8 +56,8 @@ header {
     background-position: center;
     height: 100%;
     width: 100%;
-
 }
+
 
 .banner-menu {
     color: #555590;
@@ -140,26 +99,20 @@ h1 {
 }
 
 
-.header-link :hover{
-    color:#000;
+.header-link :hover {
+    color: #000;
 }
 
 
-@media (min-width:768px){
-    .header-link{
-        padding-right:6%;
+@media (min-width:768px) {
+    .header-link {
+        padding-right: 6%;
     }
 }
 
 
 
-
-
-
-
-
-
-@media(min-width:576px) {
+@media(min-width:575px) {
     h1 {
         font-size: 3em;
     }
@@ -167,16 +120,7 @@ h1 {
     .header-text {
         font-size: 0.75em;
     }
-
-
-
-
-
-
-
-
-
-
+}
 
 
 /*------------------------------------Home Page Body */
@@ -195,6 +139,48 @@ h1 {
     width: 90%;
 }
 
+#cf {
+
+    height: 281px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+#cf img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+    opacity: 0;
+}
+
+
+
+#cf2 {
+    position: relative;
+    height: 281px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#cf2 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.top:hover {
+    opacity: 0;
+}
 
 
 
@@ -206,17 +192,13 @@ h1 {
 }
 
 
-.testimonial-heading {
-    background-color: #ccffff;
-    margin-top: 2%;
-    cursor: pointer;
-    transition: background-color 1s ease-in;
+.testimonial-button {
+    background-image: linear-gradient(#ff8888, #fffff6);
+    border: none;
+    padding: 0.75em 3em 0.75em 3em;
+    transition: background-color 0.5s ease;
 }
 
-
-.testimonial-heading :hover{
-    background-color:#ffff78;
-}
 
 
 .quote {
@@ -231,9 +213,8 @@ h1 {
 
 .horizontal {
     border-top: 1px solid #ffffa3;
-    width: 90%;
     position: absolute;
-
+    width: 90%;
 }
 
 
@@ -246,9 +227,9 @@ h1 {
 }
 
 
-.testimonial-carousel{
-    height:auto;
-    width:70%;
+.testimonial-carousel {
+    height: auto;
+    width: 50%;
 }
 
 
@@ -272,10 +253,9 @@ h1 {
 
 
 .horizontal {
-    border-top: 1px solid #ffffa3;
-    width: 90%;
+    border-top: 1px solid #5555e6;
     position: absolute;
-
+    width: 90%;
 }
 
 
@@ -294,9 +274,9 @@ h1 {
 }
 
 
-.video-wrapper {
-    height: 20vh;
-    width: auto;
+.testimonial-video {
+    height: auto;
+    width: 50%;
 }
 
 
@@ -317,6 +297,7 @@ h1 {
     border: 0.5px solid #bbcce6;
     border-radius: 10px;
     margin-bottom: 8%;
+    margin-top: 8%;
     width: 85%;
 }
 
@@ -335,7 +316,7 @@ h1 {
 
 .form-group {
     font-family: "Arial";
-    margin-bottom: 3px;
+    margin-bottom: 2%;
     width: 85%;
 }
 
@@ -348,11 +329,14 @@ h1 {
     padding-left: 0.5em;
 }
 
+
 .form-control {
+    background-color: #ffffdd;
     height: 1.5em;
-    margin: 0;
     padding-left: 0.5em;
+    transition: background-color 0.5s;
 }
+
 
 
 
@@ -382,8 +366,6 @@ h1 {
 /*  End of code credited to
     https://alligator.io/css/styling-placeholder-text/ */
 
-
-
 .map-section {
     border: 0.5px solid #bbcce6;
     border-radius: 10px;
@@ -398,31 +380,12 @@ h1 {
 
 
 .contact-map {
-    position: relative;
     top: 0;
     left: 0;
     height: 100%;
+    position: relative;
     width: 100%;
 }
-
-
-
-
-.form-label {
-    font-size: 0.75em;
-    margin-bottom: 2px;
-    padding-left: 0.5em;
-}
-
-
-.form-control {
-    background-color:#ffffdd;
-    height: 1.5em;
-    padding-left: 0.5em;
-}
-
-
-
 
 
 
@@ -441,7 +404,6 @@ h1 {
 .date-picker {
     font-size: 80%;
 }
-
 
 
 
@@ -517,9 +479,10 @@ h1 {
 /*-----------------------------------About Page Body */
 
 .card {
-    width: 100%;
     padding: 1em;
 }
+
+
 
 
 .trish-img {
@@ -527,32 +490,12 @@ h1 {
     width: 30%;
 }
 
-.card {
-    width: 100%;
-    padding: 1em;
-}
-
-
-
-
-
-@media (min-width:768px) {
-    .card {
-        width: 70%;
-    }
-
-}
-
-
-.card-image-top {
-    object-fit: contain;
-}
-
 
 .yemi-img {
-    height: 35%;
-    width: 35%;
+    height: 40%;
+    width: 60%;
 }
+
 
 
 
@@ -563,33 +506,21 @@ h1 {
 }
 
 
-
-.about-seperator {
-    margin-bottom: 5vh;
-}
-
-
-.about-seperator {
-    margin-bottom: 5vh;
-}
 
 
 /*---------------------------------Footer */
 
 footer {
-
     background-color: #ff44aa;
     color: #fafafa;
     margin-top: 10vh;
-
 }
-
 
 .footer-link {
     color: #fffff6;
 }
 
 
-.footer-link :hover{
-    color:#000;
+.footer-link :hover {
+    color: #000;
 }
