@@ -1,526 +1,340 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap:100,200,300,400,500,600,700');
-
-
-html,
-body {
-    background-color: #fffff6;
-    font-family: "Philosopher", sans-serif;
-    height: 100%;
-    width: 100%;
-    text-align: center;
+ html, body {
+     background-color: #fffff6;
+     font-family: "Philosopher", sans-serif;
+     height: 100%;
+     width: 100%;
+     text-align: center;
 }
-
-
-
 /*----------------------------------Utility */
-
-.font-main {
-    font-family: "Philosopher", sans-serif;
-    color: #afafaf;
+ .font-main {
+     font-family: "Philosopher", sans-serif;
+     color: #afafaf;
 }
-
-
-.img-size-90 {
-    height: auto;
-    object-fit: contain;
-    width: 90%;
+ .img-size-90 {
+     height: auto;
+     object-fit: contain;
+     width: 90%;
 }
-
-
-
-
-
-/*Cursor pointer code - Stack Overflow
-https://stackoverflow.com/questions/47269189/bootstrap-v4-css-class-for-pointer-cursor
-*/
-
-.cursor-pointer {
-    cursor: pointer;
+/*Cursor pointer code - Stack Overflow https://stackoverflow.com/questions/47269189/bootstrap-v4-css-class-for-pointer-cursor */
+ .cursor-pointer {
+     cursor: pointer;
 }
-
-
 /*-----------------------------------Header */
-
-header {
-    background-color: #5555e6;
-    color: #fafafa;
-    margin-bottom: 5vh;
+ header {
+     background-color: #5555e6;
+     color: #fafafa;
+     margin-bottom: 5vh;
 }
-
-
-
-.logo {
-    background: url("../images/camera-logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 100%;
-    width: 100%;
+ .logo {
+     background: url("../images/camera-logo.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     height: 100%;
+     width: 100%;
 }
-
-
-.banner-menu {
-    color: #555590;
+ .banner-menu {
+     color: #555590;
 }
-
-
-
-.banner-title {
-    margin: 0;
+ .banner-title {
+     margin: 0;
 }
-
-
-
-
-.menu-bars {
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    color: #fafafa;
-    font-size: 2em;
+ .menu-bars {
+     background-color: rgba(0, 0, 0, 0);
+     border: none;
+     color: #fafafa;
+     font-size: 2em;
 }
-
-
-h1 {
-    font-size: 1.5em;
-
+ h1 {
+     font-size: 1.5em;
 }
-
-.header-text {
-    font-size: 0.15em;
+ .header-text {
+     font-size: 0.15em;
 }
-
-
-.header-link {
-    color: #5555e6;
-    font-size: 100%;
-    margin: 2% 0;
-    padding-right: 0;
-    text-decoration: none;
+ .header-link {
+     color: #5555e6;
+     font-size: 100%;
+     margin: 2% 0;
+     padding-right: 0;
+     text-decoration: none;
 }
-
-
-.header-link :hover {
-    color: #000;
+ .header-link :hover {
+     color: #000;
 }
-
-
-@media (min-width:768px) {
-    .header-link {
-        padding-right: 6%;
+ @media (min-width:768px) {
+     .header-link {
+         padding-right: 6%;
     }
 }
-
-
-
-@media(min-width:575px) {
-    h1 {
-        font-size: 3em;
+ @media(min-width:575px) {
+     h1 {
+         font-size: 3em;
     }
-
-    .header-text {
-        font-size: 0.75em;
+     .header-text {
+         font-size: 0.75em;
     }
 }
-
-
 /*------------------------------------Home Page Body */
-
-.home-image-wrapper {
-    height: auto;
-    width: 90%;
+ .home-image-wrapper {
+     height: auto;
+     width: 90%;
 }
-
-.home-image {
-    height: 100%;
-    width: 100%;
+ .home-image {
+     height: 100%;
+     width: 100%;
 }
-
-.home-text {
-    width: 90%;
+ .home-text {
+     width: 90%;
 }
-
-#cf {
-
-    height: 281px;
-    width: auto;
-    margin: 0 auto;
-    position: relative;
+ #cf {
+     height: 281px;
+     width: auto;
+     margin: 0 auto;
+     position: relative;
 }
-
-#cf img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+ #cf img {
+     position: absolute;
+     left: 0;
+     -webkit-transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -o-transition: opacity 1s ease-in-out;
+     transition: opacity 1s ease-in-out;
 }
-
-#cf img.top:hover {
-    opacity: 0;
+ #cf img.top:hover {
+     opacity: 0;
 }
-
-
-
-#cf2 {
-    position: relative;
-    height: 281px;
-    width: auto;
-    margin: 0 auto;
+ #cf2 {
+     position: relative;
+     height: 281px;
+     width: auto;
+     margin: 0 auto;
 }
-
-#cf2 img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+ #cf2 img {
+     position: absolute;
+     left: 0;
+     -webkit-transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -o-transition: opacity 1s ease-in-out;
+     transition: opacity 1s ease-in-out;
 }
-
-#cf2 img.top:hover {
-    opacity: 0;
+ #cf2 img.top:hover {
+     opacity: 0;
 }
-
-
-
-
 /*------------------------------Testimonial Page Body */
-
-.section-heading {
-    font-size: 10vh;
+ .section-heading {
+     font-size: 10vh;
 }
-
-
-.testimonial-button {
-    background-image: linear-gradient(#ff8888, #fffff6);
-    border: none;
-    padding: 0.75em 3em 0.75em 3em;
-    transition: background-color 0.5s ease;
+ .testimonial-button {
+     background-image: linear-gradient(#ff8888, #fffff6);
+     border: none;
+     padding: 0.75em 3em 0.75em 3em;
+     transition: background-color 0.5s ease;
 }
-
-
-
-.quote {
-    height: 100%;
+ .quote {
+     height: 100%;
 }
-
-
-.quote-title {
-    height: 20%;
+ .quote-title {
+     height: 20%;
 }
-
-
-.horizontal {
-    border-top: 1px solid #ffffa3;
-    position: absolute;
-    width: 90%;
+ .horizontal {
+     border-top: 1px solid #ffffa3;
+     position: absolute;
+     width: 90%;
 }
-
-
-.quote {
-    height: 100%;
+ .quote {
+     height: 100%;
 }
-
-.quote-image-wrapper {
-    padding: 2% 0;
+ .quote-image-wrapper {
+     padding: 2% 0;
 }
-
-
-.testimonial-carousel {
-    height: auto;
-    width: 50%;
+ .testimonial-carousel {
+     height: auto;
+     width: 50%;
 }
-
-
-
-
-
-
-.testimonial-pt {
-    padding-top: 3%;
+ .testimonial-pt {
+     padding-top: 3%;
 }
-
-
-.quote {
-    height: 100%;
+ .quote {
+     height: 100%;
 }
-
-
-.quote-title {
-    height: 20%;
+ .quote-title {
+     height: 20%;
 }
-
-
-.horizontal {
-    border-top: 1px solid #5555e6;
-    position: absolute;
-    width: 90%;
+ .horizontal {
+     border-top: 1px solid #5555e6;
+     position: absolute;
+     width: 90%;
 }
-
-
-.quote {
-    height: 100%;
+ .quote {
+     height: 100%;
 }
-
-.quote-image-wrapper {
-    padding: 2% 0;
+ .quote-image-wrapper {
+     padding: 2% 0;
 }
-
-
-
-.testimonial-pt {
-    padding-top: 3%;
+ .testimonial-pt {
+     padding-top: 3%;
 }
-
-
-.testimonial-video {
-    height: auto;
-    width: 50%;
+ .testimonial-video {
+     height: 100%;
+     width: auto;
 }
-
-
 /*----------------------------------Contact Page Body */
-
-.contact-heading {
-    font-size: 5vh;
+ .contact-heading {
+     font-size: 5vh;
 }
-
-
-.message-heading {
-    font-size: 5vw;
+ .message-heading {
+     font-size: 5vw;
 }
-
-
-
-.contact-form {
-    border: 0.5px solid #bbcce6;
-    border-radius: 10px;
-    margin-bottom: 8%;
-    margin-top: 8%;
-    width: 85%;
+ .contact-form {
+     border: 0.5px solid #bbcce6;
+     border-radius: 10px;
+     margin-bottom: 8%;
+     margin-top: 8%;
+     width: 85%;
 }
-
-@media (min-width:768px) {
-    .contact-form {
-        width: 80%;
+ @media (min-width:768px) {
+     .contact-form {
+         width: 80%;
     }
-    .map-text h3 {
-        font-size: 300%;
+     .map-text h3 {
+         font-size: 300%;
     }
-    .contact-heading {
-        font-size: 10vh;
+     .contact-heading {
+         font-size: 10vh;
     }
 }
-
-
-.form-group {
-    font-family: "Arial";
-    margin-bottom: 2%;
-    width: 85%;
+ .form-group {
+     font-family: "Arial";
+     margin-bottom: 2%;
+     width: 85%;
 }
-
-
-
-
-.form-label {
-    font-size: 0.75em;
-    margin-bottom: 2px;
-    padding-left: 0.5em;
+ .form-label {
+     font-size: 0.75em;
+     margin-bottom: 2px;
+     padding-left: 0.5em;
 }
-
-
-.form-control {
-    background-color: #ffffdd;
-    height: 1.5em;
-    padding-left: 0.5em;
-    transition: background-color 0.5s;
+ .form-control {
+     background-color: #ffffdd;
+     height: 1.5em;
+     padding-left: 0.5em;
+     transition: background-color 0.5s;
 }
-
-
-
-
-
-/* Code below credited to
-    https://alligator.io/css/styling-placeholder-text/*/
-
-::-webkit-input-placeholder {
-    font-size: 13px;
+/* Code below credited to https://alligator.io/css/styling-placeholder-text
+/*/
+ ::-webkit-input-placeholder {
+     font-size: 13px;
 }
-
-::-moz-placeholder {
-
-    font-size: 13px;
+ ::-moz-placeholder {
+     font-size: 13px;
 }
-
-:-ms-input-placeholder {
-
-    font-size: 13px;
+ :-ms-input-placeholder {
+     font-size: 13px;
 }
-
-::placeholder {
-
-    font-size: 13px;
+ ::placeholder {
+     font-size: 13px;
 }
-
-/*  End of code credited to
-    https://alligator.io/css/styling-placeholder-text/ */
-
-.map-section {
-    border: 0.5px solid #bbcce6;
-    border-radius: 10px;
-    width: 80%;
+/* End of code credited to https://alligator.io/css/styling-placeholder-text/ */
+ .map-section {
+     border: 0.5px solid #bbcce6;
+     border-radius: 10px;
+     width: 80%;
 }
-
-
-.map-container {
-    height: 70%;
-    width: 100%;
+ .map-container {
+     height: 70%;
+     width: 100%;
 }
-
-
-.contact-map {
-    top: 0;
-    left: 0;
-    height: 100%;
-    position: relative;
-    width: 100%;
+ .contact-map {
+     top: 0;
+     left: 0;
+     height: 100%;
+     position: relative;
+     width: 100%;
 }
-
-
-
-.location-arrow {
-    background: rgba(0, 0, 0, 0);
-    color: red;
-    display: inline;
-    font-size: 1.5em;
-    position: relative;
-    top: 55%;
-    z-index: 2;
+ .location-arrow {
+     background: rgba(0, 0, 0, 0);
+     color: red;
+     display: inline;
+     font-size: 1.5em;
+     position: relative;
+     top: 55%;
+     z-index: 2;
 }
-
-
-
-.date-picker {
-    font-size: 80%;
+ .date-picker {
+     font-size: 80%;
 }
-
-
-
-.send-button {
-    font-size: 80%;
-    height: 40%;
-    width: 30%;
+ .send-button {
+     font-size: 80%;
+     height: 40%;
+     width: 30%;
 }
-
-
-/* Code below is to style placeholder text
-    https://alligator.io/css/styling-placeholder-text/
-    */
-
-::-webkit-input-placeholder {
-    font-size: 13px;
+/* Code below is to style placeholder text https://alligator.io/css/styling-placeholder-text/ */
+ ::-webkit-input-placeholder {
+     font-size: 13px;
 }
-
-::-moz-placeholder {
-
-    font-size: 13px;
+ ::-moz-placeholder {
+     font-size: 13px;
 }
-
-:-ms-input-placeholder {
-
-    font-size: 13px;
+ :-ms-input-placeholder {
+     font-size: 13px;
 }
-
-::placeholder {
-
-    font-size: 13px;
+ ::placeholder {
+     font-size: 13px;
 }
-
-/*  End of code for styling placeholder text*/
-
-.map-section {
-    border: 0.5px solid #bbcce6;
-    border-radius: 10px;
-    width: 80%;
+/* End of code for styling placeholder text*/
+ .map-section {
+     border: 0.5px solid #bbcce6;
+     border-radius: 10px;
+     width: 80%;
 }
-
-
-.map-text {
-    height: 60%;
+ .map-text {
+     height: 60%;
 }
-
-
-.map {
-    border: 1px solid #000;
-    height: 100%;
-    width: 100%;
+ .map {
+     border: 1px solid #000;
+     height: 100%;
+     width: 100%;
 }
-
-.map-wrapper {
-    height: 100%;
-    width: auto;
+ .map-wrapper {
+     height: 100%;
+     width: auto;
 }
-
-
-
-.location-arrow {
-    background: rgba(0, 0, 0, 0);
-    color: red;
-    display: inline;
-    font-size: 1.5em;
-    position: relative;
-    top: 40%;
-    z-index: 2;
+ .location-arrow {
+     background: rgba(0, 0, 0, 0);
+     color: red;
+     display: inline;
+     font-size: 1.5em;
+     position: relative;
+     top: 40%;
+     z-index: 2;
 }
-
-
-
 /*-----------------------------------About Page Body */
-
-.card {
-    padding: 1em;
+ .card {
+     padding: 1em;
 }
-
-
-
-
-.trish-img {
-    height: 30%;
-    width: 30%;
+ .trish-img {
+     height: 30%;
+     width: 30%;
 }
-
-
-.yemi-img {
-    height: 40%;
-    width: 60%;
+ .yemi-img {
+     height: 40%;
+     width: 60%;
 }
-
-
-
-
-@media (min-width:768px) {
-    .card {
-        width: 70%;
+ @media (min-width:768px) {
+     .card {
+         width: 70%;
     }
 }
-
-
-
-
 /*---------------------------------Footer */
-
-footer {
-    background-color: #ff44aa;
-    color: #fafafa;
-    margin-top: 10vh;
+ footer {
+     background-color: #ff44aa;
+     color: #fafafa;
+     margin-top: 10vh;
 }
-
-.footer-link {
-    color: #fffff6;
+ .footer-link {
+     color: #fffff6;
 }
-
-
-.footer-link :hover {
-    color: #000;
+ .footer-link :hover {
+     color: #000;
 }
+ 
