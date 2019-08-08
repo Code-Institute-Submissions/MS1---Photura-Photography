@@ -61,7 +61,7 @@ Four page website including the following pages:
 
 
 ## Testing
-Test results located in GiHub repository
+Test results located in docs folder
 
 N.B Banner Menu distorted on iPhone 5/SE
 
