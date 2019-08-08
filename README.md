@@ -61,9 +61,17 @@ Four page website including the following pages:
 
 
 ## Testing
-Test results located in docs folder
+Test results located in GitHub Repository
+https://github.com/Echoic88/MS1---Photura-Photography/blob/master/assets/docs/MS1%20Test%20Docs.pdf
 
 N.B Banner Menu distorted on iPhone 5/SE
+
+
+
+## Deployment
+Deployed on GitHub Pages at
+
+https://echoic88.github.io/MS1---Photura-Photography/
 
 
 
