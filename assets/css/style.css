@@ -112,9 +112,6 @@ header {
 
 
 
-.banner-title {
-    margin: 0;
-}
 
 .menu-bars {
     background-color: rgba(0, 0, 0, 0);
@@ -122,8 +119,6 @@ header {
     color: #fafafa;
     font-size: 2em;
 }
-
-
 
 
 h1 {
@@ -140,19 +135,22 @@ h1 {
     color: #5555e6;
     font-size: 100%;
     margin: 2% 0;
+    padding-right: 0;
     text-decoration: none;
 }
 
 
-.footer-link {
-    color: #fffff6;
+@media (min-width:768px){
+    .header-link{
+        padding-right:6%;
+    }
 }
 
 
 
-.nav-link :hover {
-    color: #00ff00;
-}
+
+
+
 
 
 
@@ -166,7 +164,9 @@ h1 {
     }
 
 
-}
+
+
+
 
 
 
@@ -202,7 +202,7 @@ h1 {
 
 
 .testimonial-heading {
-    background-color: #ddffff;
+    background-color: #ccffff;
     margin-top: 2%;
     cursor: pointer;
     transition: background-color 1s ease-in;
@@ -350,6 +350,7 @@ h1 {
 
 
 .form-group {
+    font-family: "Arial";
     margin-bottom: 3px;
     width: 85%;
 }
@@ -360,12 +361,9 @@ h1 {
     }
 }
 
-.form-group {
-    margin-bottom: 3px;
-}
+
 
 .form-label {
-
     font-size: 0.75em;
     margin-bottom: 2px;
     padding-left: 0.5em;
@@ -378,9 +376,7 @@ h1 {
 }
 
 
-.form-group {
-    font-family: "Arial";
-}
+
 
 
 /* Code below credited to
@@ -408,6 +404,8 @@ h1 {
 /*  End of code credited to
     https://alligator.io/css/styling-placeholder-text/ */
 
+
+
 .map-section {
     border: 0.5px solid #bbcce6;
     border-radius: 10px;
@@ -429,8 +427,10 @@ h1 {
     width: 100%;
 }
 
-.form-label {
 
+
+
+.form-label {
     font-size: 0.75em;
     margin-bottom: 2px;
     padding-left: 0.5em;
@@ -438,10 +438,15 @@ h1 {
 
 
 .form-control {
-    background-image: radial-gradient(#ffffaa 40%, #fffff6 60%);
+    background-color:#ffffdd;
     height: 1.5em;
     padding-left: 0.5em;
 }
+
+
+
+
+
 
 .location-arrow {
     background: rgba(0, 0, 0, 0);
@@ -459,9 +464,7 @@ h1 {
     font-size: 80%;
 }
 
-.form-group {
-    font-family: "Arial";
-}
+
 
 
 .send-button {
@@ -601,4 +604,9 @@ footer {
     color: #fafafa;
     margin-top: 10vh;
 
+}
+
+
+.footer-link {
+    color: #fffff6;
 }
